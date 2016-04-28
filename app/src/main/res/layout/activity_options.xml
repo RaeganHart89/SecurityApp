@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        tools:context="com.sitepoint.security.OptionsActivity">
+
+    <TextView
+        android:id="@+id/current_date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/get_current_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="getCurrentDate"
+        android:text="Date" />
+
+    <Button
+        android:id="@+id/CounterButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COUNTER" />
+
+    <Button android:id="@+id/NotesButton"
+        android:layout_marginTop="20dp"
+        android:text="Notes"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <Button android:id="@+id/MapButton"
+        android:layout_marginTop="20dp"
+        android:text="Locate Staff"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <Button android:id="@+id/BannedButton"
+        android:layout_marginTop="20dp"
+        android:text="Banned List"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+       />
+
+    <Button android:id="@+id/RulesButton"
+        android:layout_marginTop="20dp"
+        android:text="Rules and Regulations"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
+
+

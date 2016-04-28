@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:padding="10dp"
+tools:context="com.sitepoint.security.ClickCounter">">
+
+<TextView
+    android:id="@+id/myTextTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:text="Counter"
+    android:textSize="32dp"/>
+
+<EditText android:id="@+id/editText"
+    android:paddingTop="80dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:ems="10">
+    <requestFocus />
+</EditText>
+
+<Button android:id="@+id/addButton"
+    android:layout_marginTop="50dp"
+    android:text="Add One"
+    android:layout_width="150dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"/>
+
+<Button android:id="@+id/subtractButton"
+    android:layout_marginTop="20dp"
+    android:text="Subtract One"
+    android:layout_width="150dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"/>
+
+<Button android:id="@+id/resetButton"
+    android:layout_marginTop="20dp"
+    android:text="Reset"
+    android:layout_width="150dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"/>
+
+<Button
+    android:id="@+id/optionsButton"
+    android:text="Back to Options"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
